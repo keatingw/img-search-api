@@ -8,7 +8,7 @@ on:
       - main
 jobs:
   CI:
-    name: CI workflow for workspace
+    name: Python CI workflow
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
