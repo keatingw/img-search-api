@@ -3,6 +3,7 @@
 from collections.abc import AsyncGenerator
 
 import aiosqlite
+
 from img_search.settings import api_settings
 
 

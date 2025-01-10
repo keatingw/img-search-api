@@ -5,6 +5,7 @@ from typing import Annotated
 import aiosqlite
 from fastapi import APIRouter, Depends, UploadFile
 from fastapi.responses import FileResponse
+
 from img_search.api.utils import get_db_conn
 from img_search.settings import api_settings
 from img_search.types import ImageMetadata, ImageUploadMetadata

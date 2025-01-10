@@ -7,9 +7,10 @@ from typing import Annotated, Any, Self
 
 import aiosqlite
 from fastapi import HTTPException, UploadFile
-from img_search.settings import api_settings
 from PIL import Image
 from pydantic import BaseModel, Field, computed_field, model_validator
+
+from img_search.settings import api_settings
 
 DDL = [
     """

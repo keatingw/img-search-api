@@ -1,6 +1,7 @@
 """Main file for running FastAPI application."""
 
 import uvicorn
+
 from img_search.api.app import app
 
 

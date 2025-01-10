@@ -1,10 +1,8 @@
 """Module for BPE data."""
 
 import re
-from pathlib import Path
 
 import datasets
-from datasets.packaged_modules import pandas
 
 
 def load_wikitext2() -> tuple[list[str], list[str], list[str]]:

@@ -5,6 +5,7 @@ from contextlib import asynccontextmanager
 
 import aiosqlite
 from fastapi import FastAPI
+
 from img_search.api.routers.images import router as images_router
 from img_search.settings import api_settings
 from img_search.types import DDL
